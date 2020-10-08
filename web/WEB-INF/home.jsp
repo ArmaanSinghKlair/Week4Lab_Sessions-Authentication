@@ -9,9 +9,18 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Home Page</title>
+        <link href="WEB-STYLE/base.css" rel="stylesheet" type="text/css" />
+
     </head>
     <body>
-        <h1>Hello World!</h1>
+        
+        <div class="main">
+            <h1>Hello ${username}</h1>
+            <p>This is your account home page.</p>
+            
+            <a href="login?logout">Logout</a>
+        </div>
+        
     </body>
 </html>

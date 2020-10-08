@@ -5,10 +5,27 @@
  */
 package util;
 
+import model.User;
+
 /**
  *
  * @author 839645
  */
 public class AccountService {
+    String username;
+    String password;
+
+    public AccountService(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
     
+    
+    public User login(String username, String password){
+        if( (username.equals("adam") || username.equals("betty")) && password.equals("password")){
+            return new User(username,null);
+        } else {
+            return null;
+        }
+    }
 }

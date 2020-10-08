@@ -31,10 +31,11 @@ h1, h2, h3, h6, .title, .heading{
 
 .main, form{
     display: block;
-    width: 80%;
+    width: 40%;
     margin: 1vmax auto;
-    padding: 1vmax;
+    padding: 1vmax 0;
     background-color: white;
+    
 }
 
 .main a{
@@ -63,4 +64,5 @@ input[type=submit]{
     background: #333333;
     color: white;
     cursor: pointer;
+    width: 100%;
 }
