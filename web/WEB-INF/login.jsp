@@ -28,8 +28,9 @@
                 
                 <input type="submit" value="Login" />
             </form>
-            <div class="error">
-                ${validationMessage}
+            <div class="error">${validationMessage}</div>
+            <div style="text-align: center">
+                ${message}
             </div>
         </div>
     </body>
